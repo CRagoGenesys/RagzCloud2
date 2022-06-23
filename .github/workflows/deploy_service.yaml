@@ -221,6 +221,7 @@ jobs:
             install)
               echo "Installing..."
               CMD="upgrade"
+              FLAGS+=" --dry-run"
               ;;
 
             uninstall)
