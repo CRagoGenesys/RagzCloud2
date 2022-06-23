@@ -223,7 +223,7 @@ jobs:
               CMD="upgrade"
               FLAGS+=" --dry-run"
               ;;
-
+              
             uninstall)
               echo "Uninstalling..."
               CMD="uninstall"
