@@ -222,7 +222,7 @@ jobs:
               echo "Installing..."
               CMD="upgrade"
               ;;
-              
+
             uninstall)
               echo "Uninstalling..."
               CMD="uninstall"
